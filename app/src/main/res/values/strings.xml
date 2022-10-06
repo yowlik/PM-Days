@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PM Days</string>
+    <string name="image_chooser">Choose Image</string>
+    <string name="facebook_app_id">1143407269605390</string>
+    <string name="fb_login_protocol_scheme">fb1143407269605390</string>
+
+</resources>

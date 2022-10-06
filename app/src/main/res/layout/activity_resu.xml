@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.wb.goog.injusti.white.Resu">
+
+    <TextView
+        android:id="@+id/scoret"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fons"
+        android:shadowColor="@color/black"
+        android:shadowRadius="5"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textAllCaps="true"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/rules"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.615" />
+
+    <androidx.constraintlayout.utils.widget.MotionButton
+        android:id="@+id/start"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:text="Start"
+        android:textColor="@color/black"
+        android:fontFamily="@font/fons"
+        android:textSize="36dp"
+        android:shadowColor="@color/white"
+        android:shadowRadius="5"
+        android:background="@drawable/spon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.83" />
+
+    <androidx.constraintlayout.utils.widget.MotionButton
+        android:id="@+id/rules"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:text="Rules"
+        android:textColor="@color/black"
+        android:fontFamily="@font/fons"
+        android:textSize="36dp"
+        android:shadowColor="@color/white"
+        android:shadowRadius="5"
+        android:background="@drawable/spon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.546" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context="com.wb.goog.injusti.white.GameGa">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/grad"
+        android:columnCount="3"
+        android:rowCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.353">
+
+        <androidx.constraintlayout.utils.widget.MotionButton
+            android:id="@+id/im1"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/sl1"
+            android:textSize="0dp" />
+
+        <androidx.constraintlayout.utils.widget.MotionButton
+            android:id="@+id/im2"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/sl1"
+            android:textSize="0dp" />
+
+        <androidx.constraintlayout.utils.widget.MotionButton
+            android:id="@+id/im3"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/sl1"
+            android:textSize="0dp" />
+
+        <androidx.constraintlayout.utils.widget.MotionButton
+            android:id="@+id/im4"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/sl1"
+            android:textSize="0dp" />
+
+        <androidx.constraintlayout.utils.widget.MotionButton
+            android:id="@+id/im5"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/sl1"
+            android:textSize="0dp" />
+
+        <androidx.constraintlayout.utils.widget.MotionButton
+            android:id="@+id/im6"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/sl1"
+            android:textSize="0dp" />
+
+        <androidx.constraintlayout.utils.widget.MotionButton
+            android:id="@+id/im7"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/sl1"
+            android:textSize="0dp" />
+
+        <androidx.constraintlayout.utils.widget.MotionButton
+            android:id="@+id/im8"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:background="@drawable/sl1"
+            android:textSize="0dp" />
+
+        <androidx.constraintlayout.utils.widget.MotionButton
+            android:id="@+id/im9"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:background="@drawable/sl1"
+            android:textSize="0dp" />
+
+    </GridLayout>
+
+    <androidx.constraintlayout.utils.widget.MotionButton
+        android:id="@+id/start"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:background="@drawable/spon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+        
+        <TextView
+            android:fontFamily="@font/fons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your score : "
+            android:textSize="50dp"
+            android:textColor="#FFFFFF"
+            android:shadowRadius="5"
+            android:shadowColor="@color/black"/>
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:fontFamily="@font/fons"
+            android:textSize="50dp"
+            android:textColor="@color/white"
+            android:shadowRadius="5"
+            android:shadowColor="@color/black"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

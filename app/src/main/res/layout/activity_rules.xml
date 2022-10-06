@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.wb.goog.injusti.white.Rules">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fons"
+        android:gravity="center"
+        android:shadowColor="@color/black"
+        android:shadowRadius="5"
+        android:text="You got lost in the jungle, on the fifth day of your wandering through the forests you came across a tribe. They offered to play a game where you need to get 3 identical symbols in a line. At the start, you have 100 points, if you score 200, they will help you, if you have 0 points left, then you lose"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="34dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.064" />
+
+    <androidx.constraintlayout.utils.widget.MotionButton
+        android:id="@+id/menu"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:background="@drawable/spon"
+        android:fontFamily="@font/fons"
+        android:shadowColor="@color/white"
+        android:shadowRadius="5"
+        android:text="Menu"
+        android:textColor="@color/black"
+        android:textSize="38dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.93" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
